@@ -1,7 +1,13 @@
+body{
+    width: 100%;
+}
 header{
     background-color: rgba(0, 128, 0, 0.103);
     padding-bottom: 50px;
-    padding: 10px 150px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
     margin-bottom: 50px;
 
 }
@@ -10,6 +16,7 @@ header{
 }
 .second-portion{
     text-align: center;
+    padding: 0px 50px;
 }
 .second-portion img{
     width: 70px;
@@ -89,4 +96,27 @@ header{
 }
 #others p{
     text-align: justify;
+}
+footer{
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.74);
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+footer a,footer p{
+    color: white;
+    
+}
+.all-a{
+    margin: 0px 30px;
+}
+footer a:hover{
+    text-decoration: none;
+}
+.copyright-section{
+    text-align: center;
+    margin-top: 130px;
+    font-size: small;
+    
 }
