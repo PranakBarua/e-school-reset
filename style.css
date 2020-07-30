@@ -8,11 +8,11 @@ header{
     padding-bottom: 50px;
     padding-left: 150px;
     padding-right: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 
 }
 .container{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .second-portion{
     text-align: center;
@@ -117,6 +117,9 @@ footer a:hover{
 .copyright-section{
     text-align: center;
     margin-top: 130px;
-    font-size: small;
+    font-size: smaller;
     
+}
+.all-a-first{
+    font-weight: 700;
 }
