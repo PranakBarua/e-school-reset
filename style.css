@@ -1,5 +1,5 @@
 body{
-    width: 100%;
+    overflow-x: hidden;
 }
 header{
     background-color: rgba(0, 128, 0, 0.103);
@@ -9,7 +9,6 @@ header{
     padding-left: 150px;
     padding-right: 150px;
     margin-bottom: 80px;
-
 }
 .container{
     margin-bottom: 80px;
@@ -53,8 +52,9 @@ header{
     color: rgb(40, 172, 40);
 }
 .green-highlight-button{
-    padding: 5px 30px;
+    padding: 5px 10px;
     border: none;
+    width: 110px;
     background-color: rgb(40, 172, 40);
     color: white;
     border-radius: 30px;
